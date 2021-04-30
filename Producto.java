@@ -26,13 +26,13 @@ public class Producto
                 codigoBarras = temporal;
 
                 System.out.println("¿Cuántas calorías tiene el producto?");
-                calorias = sc.next();
+                calorias = sc.nextInt();
                 System.out.println("¿Cuánto colesterol tiene el producto?");
-                colesterol = sc.next();
+                colesterol = sc.nextInt();
                 System.out.println("¿Cuánta azúcar tiene el producto?");
-                azucar = sc.next();
+                azucar = sc.nextInt();
                 System.out.println("¿Cuánta grasa total tiene el producto?");
-                grasa = sc.next(); 
+                grasa = sc.nextInt(); 
 
                 FileWriter myWriter = new FileWriter(nombreProducto + ".txt");
                 myWriter.write(nombreProducto);
