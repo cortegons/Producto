@@ -9,10 +9,10 @@ public class Producto
     private String codigoBarras;
     private String temporal;
     private String nombreProducto;
-    private String calorias;
-    private String colesterol;
-    private String azucar;
-    private String grasa;
+    private int calorias;
+    private int colesterol;
+    private int azucar;
+    private int grasa;
 
     public Producto(){
         System.out.println("Ingrese el nombre del producto");
