@@ -1,0 +1,6 @@
+Arepa
+Código de barras: 12345
+Tiene 6 calorías.
+Tiene un colesterol de 7 miligramos.
+Tiene 8 gramos de azúcar.
+Tiene una grasa total de 9 gramos.
