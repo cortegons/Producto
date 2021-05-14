@@ -44,10 +44,10 @@ public class Main
         if(decision == 1) {
             FileReader leerc = new FileReader(nombre + "-C.txt");
         try{
-            int valor=leer.read();
+            int valor=leerc.read();
             while(valor!=-1){
                 System.out.print((char)valor);
-                valor = leer.read();
+                valor = leerc.read();
             }
             }catch(IOException e){
             System.out.println("Ha ocurrido un error.");
